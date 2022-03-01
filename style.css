@@ -138,6 +138,7 @@ nav ul li a {
 }
 .blog-contents p {
     color: var(--gray-text);
+    margin-top: 15px;
 }
 .blog-contents .blog-author {
     color: var(--primary-color);
@@ -158,6 +159,7 @@ nav ul li a {
 }
 .course-thumbnail {
     display: flex;
+    margin-bottom: 15px;
 }
 .course-thumbnail img {
     width: 100%;
