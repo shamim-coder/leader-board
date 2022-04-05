@@ -11,7 +11,12 @@ hr {
     border: 1px solid #D1D1D1;
     margin: 30px 0;
 }
-
+#theme-color {
+    width: 100px;
+    padding: 6px 10px;
+    font-size: 21px;
+    font-weight: 600;
+}
 /* css variables */
 :root {
     --bg-color: #F3F1FF;
@@ -132,6 +137,7 @@ nav ul li a {
     font-size: 22px;
     font-weight: 600;
     line-height: 34px;
+    color: var(--black-text);
 }
 .blog-contents {
     width: 50%;
@@ -194,4 +200,8 @@ nav ul li a {
 }
 .timer i {
     font-size: 20px;
+}
+
+.item {
+    color: var(--black-text);
 }

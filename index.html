@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,14 @@
     <!-- font awesome icon -->
     <script src="https://kit.fontawesome.com/87f80bdbf6.js" crossorigin="anonymous"></script>
     <!-- import fonts Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
     <!-- StyleSheet -->
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header>
         <div class="header-section section-width">
@@ -25,11 +29,15 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Works</a></li>
                     <li><a href="#"><img class="header-profile" src="images/icons/profile.png" alt=""></a></li>
+                    <li><select name="theme" id="theme-color">
+                            <option value="Light">Light</option>
+                            <option value="Dark">Dark</option>
+                        </select></li>
                 </ul>
             </nav>
         </div>
     </header>
-    
+
     <section>
         <div class="top-section section-width">
             <div class="top-players">
@@ -180,5 +188,24 @@
             </div>
         </div>
     </section>
+
+
+    <section>
+        <div class="course-section section-width">
+            <h2 class="course-title">Add list</h2>
+            <ul id="list">
+
+            </ul>
+            <button id="add-btn">Add List</button>
+        </div>
+        <div class="course-section section-width">
+            <h2 class="course-title">Increment Number</h2>
+            <input type="text" value="0" id="count-input">
+            <button onclick="increment()" id="count-btn">Increment</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
